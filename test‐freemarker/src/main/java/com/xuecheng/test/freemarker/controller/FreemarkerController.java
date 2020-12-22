@@ -33,7 +33,7 @@ public class FreemarkerController {
         //向数据模型放数据
         map.put("name","黑马程序员");
         Student stu1 = new Student();
-        stu1.setName("小明");
+        stu1.setName("小明1");
         stu1.setAge(18);
         stu1.setMondy(1000.86f);
         stu1.setBirthday(new Date());
